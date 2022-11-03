@@ -1,0 +1,88 @@
+header {
+    display: flex;
+    justify-content: space-between;
+}
+
+#nav-bar {
+    width: 60%;
+}
+
+#header {
+
+}
+
+#header-img {
+    width: 200px;
+}
+
+#form-content, #video-content {
+    width: 50%;
+    margin: auto;
+}
+
+h1 {
+    font-size: 1.3em;
+}
+
+input {
+    display: block;
+    width: 80%;
+    margin: auto;
+    margin-top: 20px;
+}
+
+#submit {
+    background-color: #F1C40F;
+    border-color: #F1C40F;
+    font-weight: bold;
+}
+
+#nav-bar ul li {
+    list-style-type: none;
+}
+
+#nav-bar ul {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+#nav-bar ul a {
+    text-decoration: none;
+    color: black;
+}
+
+#nav-bar ul a:visited {
+    color: black;
+}
+
+#features p {
+    text-align: left
+}
+
+#features {
+    width: 70%;
+    margin: auto;
+}
+
+#pricing {
+    display: flex;
+    flex-direction: row;
+}
+
+.pricings {
+    border: black solid 2px;
+    margin: 10px;
+    padding: 5px;
+    text-align: center;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.select-buttons {
+    background-color: #F1C40F;
+    color: black;
+    border: none;
+    padding: 10px;
+    display: block;
+    margin: auto;
+}

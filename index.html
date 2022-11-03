@@ -9,29 +9,80 @@
 
 <body>
   <script src="https://cdn.freecodecamp.org/testable-projects-fcc/v1/bundle.js"></script>
+
   <header id="header">
     <img id="header-img" src="https://cdn.freecodecamp.org/testable-projects-fcc/images/product-landing-page-logo.png"
       alt="">
     <nav id="nav-bar">
       <ul>
-        <li class="nav-link">Features</li>
-        <li class="nav-link">How it Works</li>
-        <li class="nav-link">Pricing</li>
+        <li class="nav-link"> <a href="#features"> Features </a> </li>
+        <li class="nav-link"> <a href="#video-content"> Video </a> </li>
+        <li class="nav-link"> <a href="#pricing"> Pricing </a> </li>
       </ul>
     </nav>
-    <form id="form" action="https://www.freecodecamp.com/email-submit">
-      <input id="email" placeholder="Please enter email adress here" type="email">
-      <input id="submit" type="submit">
-    </form>
-    <video width="320" height="240">
-      <source src="https://youtu.be/y8Yv4pnO7qc">
-    </video>
   </header>
 
 
+  <div id="form-content">
+    <h1>Handcrafted, home-made masterpieces</h1>
+    <form id="form" action="https://www.freecodecamp.com/email-submit">
+      <input id="email" placeholder="Please enter email adress here" type="email" required>
+      <input id="submit" type="submit" value="GET STARTED">
+    </form>
+  </div>
 
-  Hello world, we are software developers!
 
+  <section id="features">
+    <div>
+      <h1>Premieum Materials</h1>
+      <p>
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Neque, repudiandae pariatur. Deleniti, inventore ut voluptatem ratione quidem necessitatibus tempora culpa. A cumque reprehenderit repellat provident? Suscipit ut veniam consectetur voluptas?
+      </p>
+    </div>
+  
+    <div>
+      <h1>Another Ones</h1>
+      <p>
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Neque, repudiandae pariatur. Deleniti, inventore ut voluptatem ratione quidem necessitatibus tempora culpa. A cumque reprehenderit repellat provident? Suscipit ut veniam consectetur voluptas?
+      </p>
+    </div>
+  
+    <div>
+      <h1>Last one</h1>
+      <p>
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Neque, repudiandae pariatur. Deleniti, inventore ut voluptatem ratione quidem necessitatibus tempora culpa. A cumque reprehenderit repellat provident? Suscipit ut veniam consectetur voluptas?
+      </p>
+    </div>
+  </section>
+
+  <div id="video-content">
+    <video width="320" height="240" controls>
+      <source src="mov_bbb.mp4">
+    </video>
+  </div>
+
+  <div id="pricing">
+    <div class="pricings">
+      <h2>TENOR TROMBONE</h2>
+      <span>$600</span>
+      Lorem ipsum dolor, sit amet consectetur adipisicing elit. Nihil fuga qui eius libero iusto aspernatur illum sequi error facilis ipsum nam natus eveniet, laudantium, aliquam dolores! Dolorem omnis similique aut?
+      <button class="select-buttons">SELECT</button>
+    </div>
+
+    <div class="pricings">
+      <h2>BASS</h2>
+      <span>$600</span>
+      Lorem ipsum dolor, sit amet consectetur adipisicing elit. Nihil fuga qui eius libero iusto aspernatur illum sequi error facilis ipsum nam natus eveniet, laudantium, aliquam dolores! Dolorem omnis similique aut?
+      <button class="select-buttons">SELECT</button>
+    </div>
+
+    <div class="pricings">
+      <h2>LYRICS</h2>
+      <span>$600</span>
+      Lorem ipsum dolor, sit amet consectetur adipisicing elit. Nihil fuga qui eius libero iusto aspernatur illum sequi error facilis ipsum nam natus eveniet, laudantium, aliquam dolores! Dolorem omnis similique aut?
+      <button class="select-buttons">SELECT</button>
+    </div>
+  </div>
 
   <script src="js/index.js"></script>
 </body>
